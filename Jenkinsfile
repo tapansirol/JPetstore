@@ -91,7 +91,7 @@ stage ("Appscan"){
 			 deployDesc: 'Requested from Jenkins', 
 			 deployEnv: 'JPetStore_Dev', 
 			 deployOnlyChanged: false, 
-			 deployProc: 'Deploy', 
+			 deployProc: 'Deploy-JPetStore', 
 			 deployReqProps: '', 
 			 deployVersions: "JpetComponent:1.${BUILD_NUMBER}"], 
 		siteName: 'ucd-server'])
